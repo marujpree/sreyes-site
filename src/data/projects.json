@@ -1,0 +1,14 @@
+{
+  "projects": [
+    {
+      "name": "CoogMusic",
+      "description": "A full-stack music streaming platform used by 50+ UH students and alumni, hosting 100+ user-uploaded tracks with 20+ concurrent listeners at peak. Includes accounts, playlists and real-time playback controls.",
+      "tags": ["PostgreSQL", "Node.js", "Express", "React", "TypeScript"]
+    },
+    {
+      "name": "AutoReport",
+      "description": "A visualization tool that processes 500 to 5,000-row datasets, flags anomalies across 6 fault classes and renders an interactive risk dashboard in under 15 seconds, with auto-generated PDF reports and CSV export.",
+      "tags": ["React", "Flask", "Python", "pandas", "scikit-learn"]
+    }
+  ]
+}

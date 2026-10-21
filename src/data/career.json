@@ -1,0 +1,30 @@
+{
+  "career": [
+    {
+      "name": "Sewell Automotive Companies",
+      "href": "https://www.sewell.com",
+      "positions": [
+        {
+          "title": "Inventory Specialist",
+          "start": "Jun 2022",
+          "description": [
+            "Built Python automation scripts for inventory workflows across collision, service and sales teams, saving about 3 hours a week of manual data entry.",
+            "Set up Keyper Systems for key programming and tracking, cutting key retrieval time across 500+ vehicles a month.",
+            "Inspected 200+ incoming vehicles a month and kept a full audit trail; raised the audit pass rate to 95%.",
+            "Won the company-wide Joe Diggs Extra Mile Award."
+          ]
+        },
+        {
+          "title": "Information Specialist Intern",
+          "start": "Jun 2025",
+          "end": "Aug 2025",
+          "description": [
+            "Reduced downtime for 500+ users across five campuses by maintaining computers, printers and systems.",
+            "Standardized workstation setup, cutting new-associate onboarding time by about 60%.",
+            "Cut support ticket resolution time by about 40% with standardized escalation procedures."
+          ]
+        }
+      ]
+    }
+  ]
+}

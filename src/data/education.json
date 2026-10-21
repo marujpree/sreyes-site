@@ -1,0 +1,18 @@
+{
+  "education": [
+    {
+      "name": "University of Houston",
+      "href": "https://www.uh.edu",
+      "positions": [
+        {
+          "title": "BS in Computer Science",
+          "start": "2022",
+          "end": "Dec 2026 (expected)",
+          "description": [
+            "Coursework: Data Structures & Algorithms, Operating Systems, Database Systems, Computer Organization and Architecture."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "introduction": {
+    "greeting": "hi, I'm Santiago. 👋",
+    "tagline": "Computer science student at the University of Houston",
+    "description": "I build full-stack web apps with React, TypeScript and Python, and I like turning messy workflows into tools people actually use."
+  }
+}
