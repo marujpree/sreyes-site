@@ -1,12 +1,10 @@
-import ThemeToggle from "@/components/ThemeToggle";
 import { Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/Card";
 
 export default function Home() {
   return (
-    <div className="mx-auto flex max-w-3xl flex-col gap-4 p-8">
-      <ThemeToggle />
+    <div className="flex flex-col gap-4 py-8">
       <h1 className="title">hi, I&apos;m Santiago.</h1>
       <p className="text-muted-foreground">muted text</p>
       <div className="flex gap-2">

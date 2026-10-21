@@ -1,0 +1,6 @@
+{
+  "routes": [
+    { "path": "/", "name": "home", "description": "Overview and featured projects" },
+    { "path": "/projects", "name": "projects", "description": "All projects" }
+  ]
+}

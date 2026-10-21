@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
 import Providers from "@/components/Providers";
 import "./globals.css";
 
@@ -30,7 +32,13 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} min-h-screen bg-background font-sans antialiased`}
       >
-        <Providers>{children}</Providers>
+        <Providers>
+          <Header />
+          <div className="mx-auto flex max-w-3xl flex-col px-8">
+            <main className="grow">{children}</main>
+          </div>
+          <Footer />
+        </Providers>
       </body>
     </html>
   );
