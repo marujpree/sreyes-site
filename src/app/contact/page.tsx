@@ -18,8 +18,8 @@ export default function ContactPage() {
         <p className="eyebrow">04 / contact</p>
         <h1 className="title text-4xl sm:text-5xl">say hello.</h1>
         <p className="max-w-md text-balance text-muted-foreground">
-          Open to internships, interesting projects, or just talking shop. Email
-          is the fastest way to reach me.
+          Feel free to reach out by email, check out my GitHub, or connect with
+          me on my socials below.
         </p>
       </header>
 
