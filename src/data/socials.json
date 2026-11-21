@@ -7,8 +7,13 @@
     },
     {
       "name": "LinkedIn",
-      "href": "https://linkedin.com/in/santiagoreyes1",
+      "href": "https://www.linkedin.com/in/santiagoreyes1/",
       "icon": "linkedin"
+    },
+    {
+      "name": "Email",
+      "href": "mailto:santireyes19915@gmail.com",
+      "icon": "mail"
     }
   ]
 }

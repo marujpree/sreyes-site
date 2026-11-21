@@ -10,49 +10,37 @@ export default function TimelineItem({ experience }: Props) {
   const { name, href, logo, positions } = experience;
 
   return (
-    <li className="relative ml-10 py-4">
+    <li className="grid gap-4 py-8 sm:grid-cols-[11rem_1fr] sm:gap-8">
       <Link
         href={href}
         target="_blank"
         rel="noreferrer"
-        className="absolute -left-16 top-4 flex items-center justify-center rounded-full bg-background"
+        className="flex h-fit w-fit items-center gap-3 sm:flex-col sm:items-start"
       >
-        <Avatar className="size-12 border">
-          <AvatarImage
-            src={logo}
-            alt={name}
-            className="bg-background object-contain"
-          />
+        <Avatar className="size-12 rounded-sm border">
+          <AvatarImage src={logo} alt={name} className="bg-background object-contain" />
           <AvatarFallback>{name[0]}</AvatarFallback>
         </Avatar>
+        <h2 className="font-heading text-lg leading-tight">{name}</h2>
       </Link>
-      <div className="flex flex-col gap-2">
-        <Link href={href} target="_blank" rel="noreferrer" className="w-fit">
-          <h2 className="text-base font-semibold leading-none">{name}</h2>
-        </Link>
-        <div className="flex flex-col gap-4">
-          {positions.map((position) => (
-            <div key={`${position.title}-${position.start}`}>
-              <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
-                <p className="text-sm font-medium text-muted-foreground">
-                  {position.title}
-                </p>
-                <time className="whitespace-nowrap pr-8 text-xs tabular-nums text-muted-foreground">
-                  {position.start} - {position.end ?? "Present"}
-                </time>
-              </div>
-              {position.description && (
-                <ul className="ml-4 mt-2 list-outside list-disc pr-8 text-sm">
-                  {position.description.map((desc, i) => (
-                    <li key={i} className="mt-1">
-                      {desc}
-                    </li>
-                  ))}
-                </ul>
-              )}
+      <div className="flex flex-col gap-6">
+        {positions.map((position) => (
+          <div key={`${position.title}-${position.start}`}>
+            <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
+              <p className="font-medium">{position.title}</p>
+              <time className="whitespace-nowrap font-mono text-xs tabular-nums text-muted-foreground">
+                {position.start} - {position.end ?? "Present"}
+              </time>
             </div>
-          ))}
-        </div>
+            {position.description && (
+              <ul className="mt-2 ml-4 flex list-outside list-disc flex-col gap-1.5 text-sm text-muted-foreground marker:text-primary">
+                {position.description.map((desc, i) => (
+                  <li key={i}>{desc}</li>
+                ))}
+              </ul>
+            )}
+          </div>
+        ))}
       </div>
     </li>
   );

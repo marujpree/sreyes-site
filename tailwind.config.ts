@@ -43,7 +43,7 @@ const config: Config = {
       },
       fontFamily: {
         sans: "var(--font-sans)",
-        heading: "var(--font-sans)",
+        heading: ["Iowan Old Style", "Palatino Linotype", "Palatino", "Georgia", "ui-serif", "serif"],
         mono: "var(--font-mono)",
       },
     },

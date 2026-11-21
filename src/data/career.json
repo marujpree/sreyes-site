@@ -1,6 +1,22 @@
 {
   "career": [
     {
+      "name": "Energy AI Solutions",
+      "href": "#",
+      "positions": [
+        {
+          "title": "Full-Stack Software Engineer Intern",
+          "start": "Jun 2026",
+          "end": "Sep 2026",
+          "description": [
+            "Built the registration flow and role-based UI for a student career coaching platform now serving 200+ users.",
+            "Integrated Stripe payments and webhooks for a three-tier membership system, keeping access in sync with subscription status.",
+            "Replaced magic-link sign-in with a one-time-code flow and added rate limiting and account lockouts to protect against brute-force attacks."
+          ]
+        }
+      ]
+    },
+    {
       "name": "Sewell Automotive Companies",
       "href": "https://www.sewell.com",
       "positions": [
@@ -9,13 +25,13 @@
           "start": "Jun 2022",
           "description": [
             "Built Python automation scripts for inventory workflows across collision, service and sales teams, saving about 3 hours a week of manual data entry.",
-            "Set up Keyper Systems for key programming and tracking, cutting key retrieval time across 500+ vehicles a month.",
-            "Inspected 200+ incoming vehicles a month and kept a full audit trail; raised the audit pass rate to 95%.",
-            "Won the company-wide Joe Diggs Extra Mile Award."
-          ]
+            "Tracked keys and inventory for 500+ vehicles a month and inspected 200+ incoming vehicles, raising the audit pass rate to 95%.",
+            "Won the Joe Diggs Extra Mile Award, given to associates who consistently go above and beyond."
+          ],
+          "end": "Jun 2026"
         },
         {
-          "title": "Information Specialist Intern",
+          "title": "IT Intern",
           "start": "Jun 2025",
           "end": "Aug 2025",
           "description": [

@@ -1,7 +1,9 @@
 {
+  "photos": [
+    "/photos/santiago.jpg"
+  ],
   "introduction": {
-    "greeting": "hi, I'm Santiago. 👋",
-    "tagline": "Computer science student at the University of Houston",
-    "description": "I build full-stack web apps with React, TypeScript and Python, and I like turning messy workflows into tools people actually use."
+    "greeting": "hi, I'm Santiago.",
+    "description": "I'm a full-stack software developer who came up through the auto industry. Four years at a dealership group taught me how real teams work, and I now build tools that fit those workflows, from Python automation to full web apps with payments and auth."
   }
 }

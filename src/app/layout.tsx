@@ -19,7 +19,7 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "Santiago Reyes",
   description:
-    "Computer science student and developer. Projects, experience and resume.",
+    "Computer science student and developer. Projects and experience.",
 };
 
 export default function RootLayout({
@@ -34,7 +34,7 @@ export default function RootLayout({
       >
         <Providers>
           <Header />
-          <div className="mx-auto flex max-w-3xl flex-col px-8">
+          <div className="mx-auto flex max-w-4xl flex-col px-8">
             <main className="grow">{children}</main>
           </div>
           <Footer />

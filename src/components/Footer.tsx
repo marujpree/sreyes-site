@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <footer className="w-full pt-12">
-      <div className="mx-auto flex max-w-3xl flex-col items-center gap-4 px-8 pb-16 sm:flex-row sm:justify-between">
+      <div className="mx-auto flex max-w-4xl flex-col items-center gap-4 px-8 pb-16 sm:flex-row sm:justify-between">
         <p className="text-xs text-muted-foreground">
           &copy; {new Date().getFullYear()} Santiago Reyes
         </p>
@@ -16,11 +16,14 @@ export default function Footer() {
           </a>
           <a
             className="link"
-            href="https://linkedin.com/in/santiagoreyes1"
+            href="https://www.linkedin.com/in/santiagoreyes1/"
             target="_blank"
             rel="noopener noreferrer"
           >
             LinkedIn
+          </a>
+          <a className="link" href="mailto:santireyes19915@gmail.com">
+            Email
           </a>
         </div>
       </div>

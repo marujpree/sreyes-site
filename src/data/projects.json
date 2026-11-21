@@ -1,14 +1,150 @@
 {
   "projects": [
     {
+      "name": "CitizenReady",
+      "description": "A free web app that helps immigrants prepare for the US naturalization test, combining civics practice with AI grading, English reading and writing practice, and progress tracking. Evolved from the ImmiGreat hackathon project at UH, with server-side scoring, CI and automated tests.",
+      "tags": [
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "Supabase",
+        "Tailwind"
+      ],
+      "links": [
+        {
+          "name": "GitHub",
+          "href": "https://github.com/marujpree/CitizenReady-V",
+          "icon": "github"
+        }
+      ]
+    },
+    {
       "name": "CoogMusic",
       "description": "A full-stack music streaming platform used by 50+ UH students and alumni, hosting 100+ user-uploaded tracks with 20+ concurrent listeners at peak. Includes accounts, playlists and real-time playback controls.",
-      "tags": ["PostgreSQL", "Node.js", "Express", "React", "TypeScript"]
+      "tags": [
+        "PostgreSQL",
+        "Node.js",
+        "Express",
+        "React",
+        "TypeScript"
+      ]
     },
     {
       "name": "AutoReport",
       "description": "A visualization tool that processes 500 to 5,000-row datasets, flags anomalies across 6 fault classes and renders an interactive risk dashboard in under 15 seconds, with auto-generated PDF reports and CSV export.",
-      "tags": ["React", "Flask", "Python", "pandas", "scikit-learn"]
+      "tags": [
+        "React",
+        "Flask",
+        "Python",
+        "pandas",
+        "scikit-learn"
+      ]
+    },
+    {
+      "name": "FPL H2H League Dashboard",
+      "description": "A live dashboard for a Fantasy Premier League Draft league, pulling standings and fixtures from the public FPL Draft API into Supabase and deployed on Vercel.",
+      "tags": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind",
+        "Supabase"
+      ],
+      "links": [
+        {
+          "name": "Live",
+          "href": "https://fpl-league-site-h2h.vercel.app",
+          "icon": "globe"
+        },
+        {
+          "name": "GitHub",
+          "href": "https://github.com/marujpree/fpl-league-site-h2h",
+          "icon": "github"
+        }
+      ]
+    },
+    {
+      "name": "ScholarSync",
+      "description": "An academic co-pilot built at the CaseQuest hackathon at UH. It detects important class updates in emails (cancellations, exam changes, extra credit) and generates AI flashcards for each class.",
+      "tags": [
+        "PostgreSQL",
+        "Express",
+        "React",
+        "Node.js"
+      ],
+      "links": [
+        {
+          "name": "GitHub",
+          "href": "https://github.com/marujpree/CASE-QUEST",
+          "icon": "github"
+        }
+      ]
+    },
+    {
+      "name": "QueueSmart",
+      "description": "A group-built queue management app where users join and track queues for services and admins serve the next person in line, with a REST API and Jest/Supertest tests.",
+      "tags": [
+        "React",
+        "Node.js",
+        "Express",
+        "Jest"
+      ],
+      "links": [
+        {
+          "name": "GitHub",
+          "href": "https://github.com/marujpree/QueueSmart-42",
+          "icon": "github"
+        }
+      ]
+    },
+    {
+      "name": "Provenance Guard",
+      "description": "A backend API that classifies creative text as human-written or AI-generated, returning a confidence score, a transparency label and an appeal pathway, with per-IP rate limiting.",
+      "tags": [
+        "Python",
+        "Flask",
+        "Groq",
+        "LLM"
+      ],
+      "links": [
+        {
+          "name": "GitHub",
+          "href": "https://github.com/marujpree/ai201-project4-provenance-guard",
+          "icon": "github"
+        }
+      ]
+    },
+    {
+      "name": "TakeMeter",
+      "description": "A text classifier that sorts YouTube soccer comments into analysis, hot takes and reactions. A fine-tuned GPT-3.5-turbo model reached 79.2% accuracy, evaluated against a zero-shot Llama 3 baseline.",
+      "tags": [
+        "Python",
+        "scikit-learn",
+        "Jupyter"
+      ],
+      "links": [
+        {
+          "name": "GitHub",
+          "href": "https://github.com/marujpree/ai201-project3-takemeter",
+          "icon": "github"
+        }
+      ]
+    },
+    {
+      "name": "World Cup 2026 Weather Dashboard",
+      "description": "A live weather dashboard for all 16 host cities of the 2026 FIFA World Cup, with summary stats plus search and country filters, powered by the WeatherBit API.",
+      "tags": [
+        "JavaScript",
+        "React",
+        "REST API"
+      ],
+      "links": [
+        {
+          "name": "GitHub",
+          "href": "https://github.com/marujpree/Data-dashboard-p1",
+          "icon": "github"
+        }
+      ]
     }
   ]
 }

@@ -1,6 +1,19 @@
 {
   "routes": [
-    { "path": "/", "name": "home", "description": "Overview and featured projects" },
-    { "path": "/projects", "name": "projects", "description": "All projects" }
+    {
+      "path": "/",
+      "name": "home",
+      "description": "Overview and featured projects"
+    },
+    {
+      "path": "/projects",
+      "name": "projects",
+      "description": "All projects"
+    },
+    {
+      "path": "/contact",
+      "name": "contact",
+      "description": "Get in touch"
+    }
   ]
 }
